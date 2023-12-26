@@ -1,0 +1,19 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.837);
+
+    #start-pic {
+        width: 600px;
+        border-radius: 10px;
+    }
+
+    button {
+        margin-top: 25px;
+        font-size: 35px;
+    }
+}
