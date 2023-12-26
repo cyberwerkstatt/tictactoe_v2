@@ -24,6 +24,8 @@ export class StartscreenComponent implements OnInit {
 
   ngOnInit() {
     // Initialisierungslogik falls nötig
+
+    this.router.navigate(["/"])
   }
 
   loadGame() {
