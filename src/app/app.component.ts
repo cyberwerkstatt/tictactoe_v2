@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { StartscreenComponent } from './startscreen/startscreen.component';
+import { GameMainComponent } from './game-main/game-main.component';
+
 
 
 
@@ -10,7 +12,8 @@ import { StartscreenComponent } from './startscreen/startscreen.component';
   standalone: true,
   imports: [CommonModule, 
     RouterOutlet,
-    StartscreenComponent],
+    StartscreenComponent,
+  GameMainComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
